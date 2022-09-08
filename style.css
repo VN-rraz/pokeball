@@ -1,6 +1,7 @@
 body{
     background-color: rgb(248, 247, 209);
 }
+/*
 h1{
     font-family: Arial, sans-serif;
     font-size: 4em;
@@ -12,6 +13,7 @@ h1{
 
     text-align: center;
 }
+*/
 #pokeball{
     background-color: rgb(0, 0, 0);
 
@@ -272,6 +274,7 @@ h1{
                 -70px 385px 1px #000000;
                 
             }
+/*
 p{
     color: rgb(192, 166, 17);
 
@@ -288,3 +291,4 @@ p{
     font-family: Arial, sans-serif;
     font-size: 1.5em;
 }
+*/
