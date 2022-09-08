@@ -2,8 +2,10 @@ body{
     background-color: rgb(248, 247, 209);
 }
 h1{
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 4em;
+    
+    color: black;
     
     margin: -80px 15px 80px 15px;
     padding: 5px;
@@ -283,6 +285,6 @@ p{
     height: 10px;
     width: 300px;
 
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 1.5em;
 }
