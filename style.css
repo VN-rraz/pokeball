@@ -13,9 +13,6 @@
 body{
     background-color: rgb(248, 247, 209);
 }
-#viewport{
-    height: 100vh;
-}
 h1{
     font-family: 'pokemon2', Arial, Helvetica, sans-serif;
     font-size: 4em;
