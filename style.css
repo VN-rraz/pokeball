@@ -153,7 +153,6 @@ h1{
                 0px 385px 1px #000000,  /*decima segunda linha*/
                 -35px 385px 1px #000000, 
                 -70px 385px 1px #000000;
-                transition: .5s;
             }
 
             div:hover > #pokeball{
@@ -280,7 +279,6 @@ h1{
                 0px 385px 1px #000000,  /*decima segunda linha*/
                 -35px 385px 1px #000000, 
                 -70px 385px 1px #000000;
-                
             }
 p{
     color: rgb(192, 166, 17);
