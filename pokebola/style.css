@@ -1,0 +1,300 @@
+@font-face{
+    font-family: 'pokemon';
+    src: url('fonts/Pokemon Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'pokemon2';
+    src: url('fonts/Pokemon Hollow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgb(248, 247, 209);
+}
+h1{
+    font-family: 'pokemon2', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    
+    margin: -80px 15px 80px 15px;
+    padding: 5px;
+
+    text-align: center;
+}
+#pokeball{
+    background-color: rgb(0, 0, 0);
+
+    padding: 14.5px;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    
+    box-shadow: 35px 0px 1px #000000, /*primeira linha*/
+                -35px 0px 1px #000000, 
+                -70px 0px 1px #000000,
+
+                35px 35px 1px #ff0000, 
+                70px 35px 1px #000000,
+                105px 35px 1px #000000,
+                0px 35px 1px #ff0000,    /*segunda linha*/
+                -35px 35px 1px #ff0000, 
+                -70px 35px 1px #ff0000,
+                -105px 35px 1px #000000,
+                -140px 35px 1px #000000,
+
+                35px 70px 1px #ff0000, 
+                70px 70px 1px #ff0000,
+                105px 70px 1px #ff0000,
+                140px 70px 1px #000000,
+                0px 70px 1px #ff0000,   /*tercira linha*/
+                -35px 70px 1px #ff0000, 
+                -70px 70px 1px #ff0000,
+                -105px 70px 1px #fa0000,
+                -140px 70px 1px #ff0000,
+                -175px 70px 1px #000000,
+
+                35px 105px 1px #ff0000, 
+                70px 105px 1px #ff0000,
+                105px 105px 1px #fd0000,
+                140px 105px 1px #000000,
+                0px 105px 1px #ff0000,  /*quarta linha*/
+                -35px 105px 1px #ff0000, 
+                -70px 105px 1px #ff0000,
+                -105px 105px 1px #fd0000,
+                -140px 105px 1px #ff0000,
+                -175px 105px 1px #000000,
+
+                35px 140px 1px #ff0000, 
+                70px 140px 1px #ff0000,
+                105px 140px 1px #ff0000,
+                140px 140px 1px #ff0000,
+                175px 140px 1px #000000,
+                0px 140px 1px #ff0000,  /*quinta linha*/
+                -35px 140px 1px #ff0000, 
+                -70px 140px 1px #ff0000,
+                -105px 140px 1px #ff0000,
+                -140px 140px 1px #ff0000,
+                -175px 140px 1px #ff0000,
+                -210px 140px 1px #000000,
+
+                35px 175px 1px #ff0000, 
+                70px 175px 1px #ff0000,
+                105px 175px 1px #fd0000,
+                140px 175px 1px #ff0000,
+                175px 175px 1px #000000,
+                0px 175px 1px #000000,  /*sexta linha*/
+                -35px 175px 1px #000000, 
+                -70px 175px 1px #ff0000,
+                -105px 175px 1px #ff0000,
+                -140px 175px 1px #ff0000,
+                -175px 175px 1px #ff0000,
+                -210px 175px 1px #000000,
+
+                35px 210px 1px #000000, 
+                70px 210px 1px #ff0000,
+                105px 210px 1px #ff0000,
+                140px 210px 1px #000000,
+                175px 210px 1px #000000,
+                0px 210px 1px #bdbdbd,  /*setima linha*/
+                -35px 210px 1px #ffffff, 
+                -70px 210px 1px #000000,
+                -105px 210px 1px #ff0000,
+                -140px 210px 1px #ff0000,
+                -175px 210px 1px #000000,
+                -210px 210px 1px #000000,
+
+                35px 245px 1px #000000, 
+                70px 245px 1px #000000,
+                105px 245px 1px #000000,
+                140px 245px 1px #bdbdbd,
+                175px 245px 1px #000000,
+                0px 245px 1px #bdbdbd,  /*oitava linha*/
+                -35px 245px 1px #bdbdbd, 
+                -70px 245px 1px #000000,
+                -105px 245px 1px #000000,
+                -140px 245px 1px #000000,
+                -175px 245px 1px #ffffff,
+                -210px 245px 1px #000000,
+
+                35px 280px 1px #bdbdbd, 
+                70px 280px 1px #bdbdbd,
+                105px 280px 1px #bdbdbd,
+                140px 280px 1px #000000,
+                0px 280px 1px #000000,  /*nona linha*/
+                -35px 280px 1px #000000, 
+                -70px 280px 1px #ffffff,
+                -105px 280px 1px #ffffff,
+                -140px 280px 1px #ffffff,
+                -175px 280px 1px #000000,
+
+                35px 315px 1px #bdbdbd, 
+                70px 315px 1px #bdbdbd,
+                105px 315px 1px #bdbdbd,
+                140px 315px 1px #000000,
+                0px 315px 1px #bdbdbd,  /*decima linha*/
+                -35px 315px 1px #ffffff, 
+                -70px 315px 1px #ffffff,
+                -105px 315px 1px #ffffff,
+                -140px 315px 1px #bdbdbd,
+                -175px 315px 1px #000000,
+
+                35px 350px 1px #bdbdbd, 
+                70px 350px 1px #000000,
+                105px 350px 1px #000000,
+            
+                0px 350px 1px #bdbdbd,  /*decima primeira linha*/
+                -35px 350px 1px #bdbdbd, 
+                -70px 350px 1px #bdbdbd,
+                -105px 350px 1px #000000,
+                -140px 350px 1px #000000,
+
+                35px 385px 1px #000000, 
+                0px 385px 1px #000000,  /*decima segunda linha*/
+                -35px 385px 1px #000000, 
+                -70px 385px 1px #000000;
+                transition: .5s;
+            }
+
+            div:hover > #pokeball{
+                box-shadow: 35px 0px 1px #000000, /*primeira linha*/
+                -35px 0px 1px #000000, 
+                -70px 0px 1px #000000,
+
+                35px 35px 1px #2925ff, 
+                70px 35px 1px #000000,
+                105px 35px 1px #000000,
+                0px 35px 1px #2925ff,    /*segunda linha*/
+                -35px 35px 1px #2925ff, 
+                -70px 35px 1px #2925ff,
+                -105px 35px 1px #000000,
+                -140px 35px 1px #000000,
+
+                35px 70px 1px #2925ff, 
+                70px 70px 1px #2925ff,
+                105px 70px 1px #2925ff,
+                140px 70px 1px #000000,
+                0px 70px 1px #2925ff,   /*tercira linha*/
+                -35px 70px 1px #2925ff, 
+                -70px 70px 1px #2925ff,
+                -105px 70px 1px #2925ff,
+                -140px 70px 1px #2925ff,
+                -175px 70px 1px #000000,
+
+                35px 105px 1px #2925ff, 
+                70px 105px 1px #2925ff,
+                105px 105px 1px #2925ff,
+                140px 105px 1px #000000,
+                0px 105px 1px #2925ff,  /*quarta linha*/
+                -35px 105px 1px #2925ff, 
+                -70px 105px 1px #2925ff,
+                -105px 105px 1px #2925ff,
+                -140px 105px 1px #2925ff,
+                -175px 105px 1px #000000,
+
+                35px 140px 1px #2925ff, 
+                70px 140px 1px #2925ff,
+                105px 140px 1px #2925ff,
+                140px 140px 1px #2925ff,
+                175px 140px 1px #000000,
+                0px 140px 1px #2925ff,  /*quinta linha*/
+                -35px 140px 1px #2925ff, 
+                -70px 140px 1px #2925ff,
+                -105px 140px 1px #2925ff,
+                -140px 140px 1px #2925ff,
+                -175px 140px 1px #2925ff,
+                -210px 140px 1px #000000,
+
+                35px 175px 1px #2925ff, 
+                70px 175px 1px #2925ff,
+                105px 175px 1px #2925ff,
+                140px 175px 1px #2925ff,
+                175px 175px 1px #000000,
+                0px 175px 1px #000000,  /*sexta linha*/
+                -35px 175px 1px #000000, 
+                -70px 175px 1px #2925ff,
+                -105px 175px 1px #2925ff,
+                -140px 175px 1px #2925ff,
+                -175px 175px 1px #2925ff,
+                -210px 175px 1px #000000,
+
+                35px 210px 1px #000000, 
+                70px 210px 1px #2925ff,
+                105px 210px 1px #2925ff,
+                140px 210px 1px #000000,
+                175px 210px 1px #000000,
+                0px 210px 1px #bdbdbd,  /*setima linha*/
+                -35px 210px 1px #ffffff, 
+                -70px 210px 1px #000000,
+                -105px 210px 1px #2925ff,
+                -140px 210px 1px #2925ff,
+                -175px 210px 1px #000000,
+                -210px 210px 1px #000000,
+
+                35px 245px 1px #000000, 
+                70px 245px 1px #000000,
+                105px 245px 1px #000000,
+                140px 245px 1px #bdbdbd,
+                175px 245px 1px #000000,
+                0px 245px 1px #bdbdbd,  /*oitava linha*/
+                -35px 245px 1px #bdbdbd, 
+                -70px 245px 1px #000000,
+                -105px 245px 1px #000000,
+                -140px 245px 1px #000000,
+                -175px 245px 1px #ffffff,
+                -210px 245px 1px #000000,
+
+                35px 280px 1px #bdbdbd, 
+                70px 280px 1px #bdbdbd,
+                105px 280px 1px #bdbdbd,
+                140px 280px 1px #000000,
+                0px 280px 1px #000000,  /*nona linha*/
+                -35px 280px 1px #000000, 
+                -70px 280px 1px #ffffff,
+                -105px 280px 1px #ffffff,
+                -140px 280px 1px #ffffff,
+                -175px 280px 1px #000000,
+
+                35px 315px 1px #bdbdbd, 
+                70px 315px 1px #bdbdbd,
+                105px 315px 1px #bdbdbd,
+                140px 315px 1px #000000,
+                0px 315px 1px #bdbdbd,  /*decima linha*/
+                -35px 315px 1px #ffffff, 
+                -70px 315px 1px #ffffff,
+                -105px 315px 1px #ffffff,
+                -140px 315px 1px #bdbdbd,
+                -175px 315px 1px #000000,
+
+                35px 350px 1px #bdbdbd, 
+                70px 350px 1px #000000,
+                105px 350px 1px #000000,
+            
+                0px 350px 1px #bdbdbd,  /*decima primeira linha*/
+                -35px 350px 1px #bdbdbd, 
+                -70px 350px 1px #bdbdbd,
+                -105px 350px 1px #000000,
+                -140px 350px 1px #000000,
+
+                35px 385px 1px #000000, 
+                0px 385px 1px #000000,  /*decima segunda linha*/
+                -35px 385px 1px #000000, 
+                -70px 385px 1px #000000;
+                
+            }
+p{
+    color: rgb(192, 166, 17);
+
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -190px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 10px;
+    width: 300px;
+
+    font-family: 'pokemon', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
