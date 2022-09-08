@@ -153,7 +153,7 @@ h1{
                 0px 385px 1px #000000,  /*decima segunda linha*/
                 -35px 385px 1px #000000, 
                 -70px 385px 1px #000000;
-                transition: 1s;
+                transition: .5s;
             }
 
             div:hover > #pokeball{
